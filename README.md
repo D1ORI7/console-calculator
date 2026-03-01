@@ -10,15 +10,15 @@ The program reads an expression in the format `number operator number` and print
 
 Features
 
-\- Addition (`+`)
+- Addition (`+`)
 
-\- Subtraction (`-`)
+- Subtraction (`-`)
 
-\- Multiplication (`\*`)
+- Multiplication (`*`)
 
-\- Division (`/`) with division-by-zero protection
+- Division (`/`) with division-by-zero protection
 
-\- Supports decimal numbers (`double`)
+- Supports decimal numbers (`double`)
 
 
 
@@ -74,21 +74,22 @@ Error: division by zero
 
 Code Overview
 
-\- Reads input as: `<double> <char> <double>`
+- Reads input as: `double char double`
 
-\- Uses a `switch` statement to handle operations
+- Uses a `switch` statement to handle operations
 
-\- Validates operator and division by zero
+- Validates operator and division by zero
 
-\- Prints the result or an error message
+- Prints the result or an error message
 
 
 
 Requirements
 
-\- C++ compiler (g++, clang++, MSVC)
+- C++ compiler (g++, clang++, MSVC)
 
-\- C++11 or newer
+- C++11 or newer
+
 
 
 
